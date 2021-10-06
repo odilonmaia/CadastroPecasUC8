@@ -17,7 +17,7 @@ if (listaPecas.length < 10) {
 
 let nomePeca = listaPecas [1]
 
-if (nomePeca.replaceAll(""," ").length > 3) {
+if (nomePeca.length > 3) {
     console.log  ("Nome válido")
 } else {
     console.log("O nome precias ter no mínimo 3 caracteres.")
