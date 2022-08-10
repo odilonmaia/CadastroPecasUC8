@@ -7,7 +7,7 @@ if(peso > 100){
     console.log("Peça com peso inferior, não poderá ser cadastrada.")
 }
 
-let listaPecas = ["Disco de Freio","Am ","Pastilha de Freio","Amortecedor","Barra de Direção","Vela","Cabo de Vela","Correia Denteda","Bateria","Pneus"]
+let listaPecas = ["Disco de Freio","Am ","Pastilha de Freio","Amortecedor","Barra de Direção","Vela","Cabo de Vela","Correia Dentada","Bateria","Pneus"]
 if (listaPecas.length < 10) {
     console.log("A lista ainda possui espaço para inclusão de mais itens.")
     
